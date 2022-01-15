@@ -53,11 +53,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Get started',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/GalaxyNodes/documentation',
             label: 'GitHub',
             position: 'right',
           },
@@ -70,7 +70,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
@@ -98,7 +98,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GalaxyNodes Documentation, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GalaxyNodes. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
