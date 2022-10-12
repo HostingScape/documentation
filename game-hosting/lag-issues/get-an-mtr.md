@@ -22,6 +22,6 @@ Aand.. you're done!
 
 
 
-### MacOS & Linux
+### macOS & Linux
 
 If your OS ("Operating System") is MacOS or Linux, please create a ticket and we'll help you further in.

@@ -8,7 +8,7 @@
 
 ### Server lag
 
-In case of the lag is identified as "server-lag" (low TPS, etc), you can create a ticket and we'll try to debug your server to check for issues. You can also grab a timings report link and post it on the #public-support Discord channel. Our support bot should automatically reply with what you need to fix and what you need to change. ([get-a-timings-report.md](../get-a-timings-report.md "mention")) If this still doesn't work for you, please create a ticket.
+In case of the lag is identified as "server-lag" (low TPS, etc), you can create a ticket and we'll try to debug your server to check for issues. You can also grab a timings report link and post it on the #public-support Discord channel. Our support bot should automatically reply with what you need to fix and what you need to change ([get-a-timings-report.md](../get-a-timings-report.md "mention")). If this still doesn't work for you, please create a ticket.
 
 ### Ping lag
 
