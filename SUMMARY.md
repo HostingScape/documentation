@@ -11,7 +11,7 @@
 ## 🤖 Bot Hosting
 
 * [Get ready-to-go](bot-hosting/get-ready-to-go/README.md)
-  * [Node.js](bot-hosting/get-ready-to-go/node.js.md)
+  * [Node.js](bot-hosting/get-ready-to-go/nodejs.md)
   * [Python](bot-hosting/get-ready-to-go/python.md)
 
 ## 🌐 Web Hosting
