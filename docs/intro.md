@@ -1,5 +1,6 @@
-# Welcome!
+---
+sidebar_position: 1
+---
 
-We welcome you to the GalaxyNodes' Documentation! Please choose between the different categories below:
-
-[Minecraft](../docs/Minecraft/optimize)
+# Introducción
+Bienvenidos a la documentación de HostingScape. Para ver los contenidos, comprueben la barra lateral.

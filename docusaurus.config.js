@@ -6,15 +6,26 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'GalaxyNodes Documentation',
-  tagline: 'Welcome to the GalaxyNodes Documentation! Here, you can find more information about what plugins we recommend for your server, how to optimize your server, and much more!\nDo note, this docs are still on development and some stuff might be missing/will be edited in the future, if you\'d like to help us finish the documentation faster, you may make a PR at our GitHub to add more docs.',
-  url: 'https://galaxynodes-docs.pages.dev',
+  title: 'HostingScape',
+  tagline: 'Hosting hecho facil',
+  url: 'https://hostingscape.cloud',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'GalaxyNodes', // Usually your GitHub org/user name.
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'HostingScape', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'es',
+    locales: ['es'],
+  },
 
   presets: [
     [
@@ -24,13 +35,16 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/GalaxyNodes/documentation/tree/main/packages/create-docusaurus/templates/shared/',
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/HostingScape/documentation/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/GalaxyNodes/documentation/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/HostingScape/documentation/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,17 +57,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'GalaxyNodes Documentation',
+        title: 'HostingScape',
         logo: {
-          alt: 'GalaxyNodes Logo',
-          src: 'img/logo.svg',
+          alt: 'Logo',
+          src: 'https://media.discordapp.net/attachments/994640845972189254/1050095936308789308/HostingScape4.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentación',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -70,7 +84,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentación',
                 to: '/docs/intro',
               },
             ],
@@ -79,8 +93,16 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
                 label: 'Discord',
-                href: 'https://dsc.gg/galaxynodes',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
@@ -93,12 +115,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/GalaxyNodes/documentation',
+                href: 'https://github.com/HostingScape/documentation',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GalaxyNodes Documentation, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} HostingScape. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
